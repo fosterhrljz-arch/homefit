@@ -1,0 +1,17 @@
+{
+  "passed": 9,
+  "checks": [
+    "Bodyweight-only arms generate and complete a real session with biceps and triceps work",
+    "Onboarding requires a band type, persists mini-only selection, and preserves history",
+    "Mini-only plans and actual swaps exclude long bands; type filters and library alternatives respect equipment",
+    "Long-only and both-type inventories persist and backup export/import retains selections and history",
+    "Unavailable arms clear the old plan and offer a working compatible focus without removing restrictions",
+    "Older v2 sessions stay paused for unknown or wrong band types and resume after confirmation without losing sets",
+    "A legacy session requiring unavailable equipment can be ended and saved with completed sets intact",
+    "New equipment controls and affected screens stay English, grayscale, and responsive at mobile, tablet, and desktop sizes",
+    "Correct page identity, nonblank UI, no framework overlay, no runtime errors, and no external app requests"
+  ],
+  "errors": [],
+  "browser": "Google Chrome via Playwright",
+  "transport": "HTTP loopback"
+}

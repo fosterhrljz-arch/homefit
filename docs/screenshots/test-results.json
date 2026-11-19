@@ -1,0 +1,31 @@
+{
+  "passed": 17,
+  "checks": [
+    "Page identity, meaningful first screen, no framework overlay",
+    "Profile, equipment, custom weights, restrictions persist after reload",
+    "Workout generation respects time and selected profile",
+    "Session pause, reload recovery, and resume",
+    "Invalid reps rejected; completed set enters rest",
+    "Entire session, feedback, history, and completion saved exactly once",
+    "Hard feedback produces an easier next plan",
+    "Pain before any completed set still affects the next workout",
+    "Library search, empty state, form demonstrations, and alternatives",
+    "Samples preserve real workouts; backup export and import round-trip",
+    "Malformed backup rejected without changing data",
+    "Responsive layouts at 390, 768, 1024, and 1440 pixels",
+    "Loaded app works offline without remote assets or API calls",
+    "No external network requests or browser runtime errors",
+    "Automatic warm-up/rest timers, paused time excluded, partial completion recorded",
+    "Corrupt stored data is preserved without silent overwrite",
+    "Unavailable local storage produces a persistent visible warning"
+  ],
+  "viewports": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "browser": "Playwright Chromium",
+  "transport": "HTTP loopback",
+  "errors": []
+}

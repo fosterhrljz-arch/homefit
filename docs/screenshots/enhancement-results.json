@@ -1,0 +1,19 @@
+{
+  "passed": 11,
+  "checks": [
+    "Assessment saves, survives navigation, and lowers starting volume",
+    "Replacement changes the movement and recalculates its prescription within the time limit",
+    "Changing duration clears the previous plan before it can be started",
+    "Weekly rhythm persists; scheduled sessions keep their date; active-time limit stops without inventing sets",
+    "Recent actual training adds recovery instead of stacking another session",
+    "In-progress rep, band and feedback entries survive pause and reload",
+    "Owned band levels can be selected in-session and exercise feedback persists independently of overall feedback",
+    "Warm-up pain is general, blocks new planning, and resolution preserves the original report",
+    "Version-one active session migration retains profile, history, logged set and ID; original data is backed up",
+    "New and existing screens remain grayscale and fit mobile, tablet and desktop widths",
+    "No runtime or console errors in enhanced feature flows"
+  ],
+  "errors": [],
+  "browser": "Google Chrome via Playwright",
+  "transport": "HTTP loopback"
+}
